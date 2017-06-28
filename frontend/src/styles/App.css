@@ -1,10 +1,20 @@
 body {
- 
+  
+}
+
+.font {
+  font-family: 'Century Gothic';
 }
 
 .mdl-cell {
   margin: 0px;
 }
+
+.mdl-button--fab:focus {
+  box-shadow: none;
+}
+
+
 .home-background {
   position: absolute;
   top: 0;
@@ -13,6 +23,32 @@ body {
   left: 0;
   background: url('../../public/home.jpg') no-repeat fixed;
   background-size: 100%;
+}
+
+.home-header {
+  position: absolute;
+  padding: 0 40px 0 80px;
+  height: 100px;
+}
+
+.home-nav {
+  height: 100px;
+}
+
+.home-link {
+  padding: 16px 24px;
+  line-height: 68px;
+  float: right;
+  text-decoration: none;
+}
+
+.home-link-text {
+  color: white;
+  font-size: 20px;
+}
+
+.home-link-text:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .App {
@@ -60,7 +96,6 @@ body {
 
 .welcome {
   font-size: 60px;
-  font-family: 'Century Gothic';
 }
 
 .menu-div {
@@ -200,9 +235,8 @@ body {
   // opacity: 0.8;
   margin-right: -28px;
   color: white;
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7);
+  // box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7);
   transition: all 1s ease .1s;
-  font-family:'Century Gothic';
 }
 
 .blog-top-bar-menu-show {
@@ -225,7 +259,7 @@ body {
   // opacity: 0.8;
   color: white;
   border-radius: 50%;
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7); 
+  // box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.7); 
 }
 
 .blog-top-bar-button {
@@ -265,6 +299,51 @@ body {
 .blog-card-hover {
   box-shadow: 0 0px 0px 5px rgba(0,0,0,.14), 0 0px 0px 5px rgba(0,0,0,.14), 0 0px 0px 5px rgba(0,0,0,.14);
   transition: all 0.4s ease-out;
+}
+
+.about-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../../public/about.jpg') no-repeat fixed;
+  background-size: 100%;
+}
+
+.about-backdrop {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  text-align: center;
+}
+
+.about-person-card-con {
+  height: 100%;
+  display: flex;
+}
+
+.about-person-card-background {
+  height: 60%;
+  margin-top: 10%;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 15px;
+}
+
+.about-name-c {
+  height: 100px;
+  width: 60px;
+  border: 5px solid white;
+  border-radius: 100px 0px 0px 100px;
 }
 
 @keyframes App-logo-spin {

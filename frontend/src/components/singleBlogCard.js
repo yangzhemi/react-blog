@@ -26,7 +26,7 @@ class SingleBlogCard extends Component {
       <div className="mdl-cell mdl-cell--4-col mdl-grid--no-spacing blog-card">
         <div className={this.state.card_classname} onMouseOver={this.hoverCard.bind(this)} onMouseOut={this.blurCard.bind(this)}>
           <div className="mdl-card__title">
-            <h2 className="mdl-card__title-text">Welcome</h2>
+            <h2 className="mdl-card__title-text">Welcomes adaj hasj hsjkah dkjsahd kjsah dkjsa</h2>
           </div>
           <div className="mdl-card__supporting-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -35,7 +35,7 @@ class SingleBlogCard extends Component {
           <div className="mdl-card__actions mdl-card--border">
             <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
               Get Started
-            </a>
+            </a> 
           </div>
         </div>
       </div>
